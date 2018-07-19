@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/slated/ansible-certbot-role.svg?branch=master)](https://travis-ci.org/slated/ansible-certbot-role)
+
 Role Name
 =========
 
