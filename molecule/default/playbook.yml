@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    certbot_hostname: test.slated.com
+    certbot_admin_email: test@slated.com
+  roles:
+    - role: ansible-certbot-role

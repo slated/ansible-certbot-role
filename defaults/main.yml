@@ -1,0 +1,7 @@
+---
+
+certbot_hostname:
+certbot_admin_email:
+certbot_auto_renew: yes
+certbot_script: /opt/certbot-auto
+certbot_live_dir: '/etc/letsencrypt/live/{{ certbot_hostname }}'
